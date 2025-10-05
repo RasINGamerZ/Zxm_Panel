@@ -15,6 +15,8 @@ echo "🔍 Checking dependencies..."
 if ! command -v unzip &> /dev/null; then
   echo "⚠️ unzip not found. Installing..."
   sudo apt update && sudo apt install unzip -y
+  git clone https://github.com/RasINGamerZ/Zxm_Panel.git
+  cd Zxm_Panel
 fi
 
 # Step 2: Create install directory
@@ -54,3 +56,4 @@ echo "========================================"
 echo "     ⚡ Installation Successful ⚡"
 echo "========================================"
 echo ""
+
